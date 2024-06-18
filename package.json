@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "install": "node install.js",
+    "uninstall": "node uninstall.js",
+    "start": "pm2 start app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
